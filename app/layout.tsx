@@ -43,6 +43,8 @@ export default async function RootLayout({
   return (
     <html lang={lang || defaultLocale} suppressHydrationWarning>
       <head />
+      <script defer data-domain="badparenting.org" src="https://click.pageview.click/js/script.js"></script>
+
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
