@@ -14,10 +14,10 @@ export const GameDescription: React.FC = () => {
         </p>
         
         <p>
-          As Ron, players explore his family's home and interact with objects and memories that slowly reveal 
+          As Ron, players explore his family&apos;s home and interact with objects and memories that slowly reveal 
           a more sinister aspect of Mr. Red Face. This short, approximately 20-minute experience is filled with 
           suspense as each interaction deepens the mystery of what Mr. Red Face truly represents and why he has 
-          appeared to Ron's family.
+          appeared to Ron&apos;s family.
         </p>
 
         <h3 className="text-2xl font-semibold mt-8 mb-4">A Dark Encounter in a Family Home</h3>
