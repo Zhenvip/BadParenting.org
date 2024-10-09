@@ -5,14 +5,14 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://github.com/weijunext/landing-page-boilerplate"
+      href="https://github.com/Zhenvip/BadParenting.org/"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
       <Button
         variant="default"
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
-        aria-label="Get Boilerplate"
+        aria-label="Download Now  "
       >
         <RocketIcon />
         {locale.title}
