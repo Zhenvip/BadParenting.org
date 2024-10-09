@@ -21,6 +21,9 @@ Bad Parenting offers a unique gaming experience:
 - Retro-inspired graphics reminiscent of 90s cartoons
 - Approximately 30 minutes of gameplay per playthrough
 
+[![Bad Parenting Spiel](./public/bad_parenting.jpg)](https://badparenting.org/)
+
+
 ## System Requirements
 
 - OS: Windows 7/10/11
@@ -28,6 +31,9 @@ Bad Parenting offers a unique gaming experience:
 - Memory: 4 GB RAM
 - Graphics: GTX 650 Ti or equivalent
 - Storage: 500 MB available space
+
+[![Bad Parenting Spiel](./public/bad_family.jpg)](https://badparenting.org/)
+
 
 ## Installation
 
@@ -44,6 +50,9 @@ Bad Parenting contains mature themes including:
 - Potentially triggering content for those with childhood trauma
 
 Player discretion is strongly advised.
+
+[![Bad Parenting Spiel](./public/gameplay.jpg)](https://badparenting.org/)
+
 
 If you enjoy Bad Parenting, consider supporting our work:
 
