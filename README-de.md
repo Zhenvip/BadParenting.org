@@ -1,4 +1,4 @@
-🌍 *[English](README.md) ∙ [Deutsch](README-de.md) ∙ [Deutsch](README-de.md)*
+🌍 *[English](README.md) ∙ [Deutsch](README-de.md)*
 
 # [Bad Parenting](https://badparenting.org/)
 
