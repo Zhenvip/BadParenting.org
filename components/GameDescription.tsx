@@ -8,12 +8,14 @@ export const GameDescription: React.FC = () => {
     if (iframeRef.current) {
       if (iframeRef.current.requestFullscreen) {
         iframeRef.current.requestFullscreen();
-      } else if (iframeRef.current.mozRequestFullScreen) {
-        iframeRef.current.mozRequestFullScreen();
-      } else if (iframeRef.current.webkitRequestFullscreen) {
-        iframeRef.current.webkitRequestFullscreen();
-      } else if (iframeRef.current.msRequestFullscreen) {
-        iframeRef.current.msRequestFullscreen();
+      } else {
+        // Handle vendor prefixes
+        const elem = iframeRef.current as any;
+        const requestFullScreen = elem.requestFullscreen || elem.mozRequestFullScreen ||
+                                  elem.webkitRequestFullscreen || elem.msRequestFullscreen;
+        if (requestFullScreen) {
+          requestFullScreen.call(elem);
+        }
       }
     }
   };
