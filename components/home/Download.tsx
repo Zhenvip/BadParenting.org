@@ -16,7 +16,7 @@ import { ALL_TIERS } from "@/config/tiers";
 import { FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 
-const Pricing = ({
+const Download = ({
   id,
   locale,
   langName,
@@ -106,4 +106,4 @@ const Pricing = ({
   );
 };
 
-export default Pricing;
+export default Download;
