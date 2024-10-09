@@ -1,47 +1,47 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "ランディングページ",
-    "title3": "迅速に構築",
-    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
+    "title1": "プレイ",
+    "title2": "ダメな子育て",
+    "title3": "今すぐ！",
+    "description": "ストーリー：赤面さんは、大人が子供たちに教えるために作った架空のキャラクターです。夜遅くによく現れて、行儀の良い子供たちにプレゼントを渡すと言われています。しかし、赤面さんの話は本当にそんなに単純なのでしょうか？"
   },
   "SocialProof": {
-    "maker": "開発者が迅速に出荷"
+    "maker": "プレイヤーに大人気！"
   },
   "Showcase": {
-    "title": "Showcase",
-    "description": "1000人以上のクリエイターが利用中！コンバージョン率アップを実現するランディングページテンプレート"
+    "title": "ショーケース",
+    "description": "ゲームの主人公ロン。赤面さんが彼の家族にもたらす苦しみを目撃することになります。"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "特徴"
   },
-  "Pricing": {
-    "title": "価格設定",
+  "Download": {
+    "title": "ダウンロード",
     "title2": "無制限アクセスを取得。",
-    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
-    "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
-    "follow": "私のTwitterをフォローしてください。"
+    "description": "これは私の初めてのホラーゲームで、常に無料です。私のゲーム開発の旅をサポートするために購入することができます！💖",
+    "doYouLike": "このホラーゲームは気に入りましたか？",
+    "follow": "Twitterでフォローしてください。"
   },
   "Testimonials": {
-    "title": "Testimonials",
-    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
-    "description2": "私に知らせてください",
+    "title": "感想",
+    "description1": "このダメな子育てホラーゲームをプレイして、Twitterで推薦してくれた場合は、",
+    "description2": "ぜひお知らせください",
     "description3": "。あなたのツイートと推薦をここに表示します。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "最も頻繁に尋ねられる質問はこちらです。"
+    "title": "よくある質問",
+    "description": "こちらが最もよく聞かれる質問です。"
   },
   "CTA": {
-    "title": "今すぐあなたのランディングページを構築",
-    "description1": "あなたのランディングページを",
-    "description2": "構築し、",
-    "description3": "あなたの製品を",
-    "description4": "紹介し、そして",
-    "description5": "収益を得始めましょう",
-    "description6": "！"
+    "title": "今すぐダメな子育てをプレイ",
+    "description1": "2024年の",
+    "description2": "ホラーに",
+    "description3": "飛び込み、",
+    "description4": "不気味な",
+    "description5": "冒険を",
+    "description6": "今日から始めよう！"
   },
   "CTAButton": {
-    "title": "テンプレートを入手"
+    "title": "今すぐプレイ"
   }
 }
