@@ -15,9 +15,9 @@ const baseSiteConfig = {
   keywords: ["bad parenting", "horror game", "narrative game", "Mr. Red Face", "psychological horror"],
   authors: [
     {
-      name: "2OO2 Games",
-      url: "https://2002games.com",
-      twitter: 'https://twitter.com/2002games',
+      name: "BadParenting.org",
+      url: "https://BadParenting.org",
+      twitter: 'https://twitter.com/BadParenting',
     }
   ],
   creator: '@2002games',
@@ -34,20 +34,16 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/2002games", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/2002games", icon: SiBuymeacoffee }
+    { name: 'twitter', href: "https://twitter.com/BadParenting", icon: BsTwitterX },
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/mrrhunt", icon: SiBuymeacoffee }
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:contact@2002games.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/2002games", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/2002games/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/2002games", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/2002games", icon: SiJuejin },
-    { name: 'weChat', href: "https://2002games.com/contact", icon: BsWechat }
+    { name: 'email', href: "mailto:charlie0simmon@gmail.com", icon: MdEmail },
+    { name: 'github', href: "https://github.com/BadParenting.org/", icon: BsGithub },
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/mrrhunt", icon: SiBuymeacoffee },
   ],
   footerProducts: [
     { url: 'https://badparenting.org/', name: 'Bad Parenting' },
-    { url: 'https://2002games.com/games', name: 'Other Games' },
   ]
 }
 
