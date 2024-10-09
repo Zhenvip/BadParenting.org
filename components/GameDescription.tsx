@@ -1,6 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 export const GameDescription: React.FC = () => {
+  const iframe1Ref = useRef<HTMLIFrameElement>(null);
+  const iframe2Ref = useRef<HTMLIFrameElement>(null);
+
+  const handleFullscreen = (iframeRef: React.RefObject<HTMLIFrameElement>) => {
+    if (iframeRef.current) {
+      if (iframeRef.current.requestFullscreen) {
+        iframeRef.current.requestFullscreen();
+      } else if (iframeRef.current.mozRequestFullScreen) {
+        iframeRef.current.mozRequestFullScreen();
+      } else if (iframeRef.current.webkitRequestFullscreen) {
+        iframeRef.current.webkitRequestFullscreen();
+      } else if (iframeRef.current.msRequestFullscreen) {
+        iframeRef.current.msRequestFullscreen();
+      }
+    }
+  };
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-4xl font-bold mb-8 text-center">Bad Parenting: A Chilling Tale of Mr. Red Face</h2>
@@ -8,17 +25,23 @@ export const GameDescription: React.FC = () => {
       <div className="space-y-12 text-center">
         <div>
           <h3 className="text-2xl font-semibold mb-4">Play Bad Parenting: Original Version</h3>
-          <div className="aspect-w-16 aspect-h-9 h-[70vh] mb-8">
+          <div className="aspect-w-16 aspect-h-9 h-[70vh] mb-8 relative">
             <iframe 
+              ref={iframe1Ref}
               src="https://fnf-online.io/bad-parenting-1.embed" 
               className="w-full h-full"
               frameBorder="0" 
               allowFullScreen
               title="Bad Parenting Game - Original Version"
             ></iframe>
+            <button
+              onClick={() => handleFullscreen(iframe1Ref)}
+              className="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Fullscreen
+            </button>
           </div>
         </div>
-
         <div className="max-w-3xl mx-auto">
           <p className="mb-6">
             Bad Parenting is a narrative-driven game that introduces players to the unsettling tale of Mr. Red Face, 
@@ -34,20 +57,25 @@ export const GameDescription: React.FC = () => {
             appeared to Ron&apos;s family.
           </p>
         </div>
-
         <div>
           <h3 className="text-2xl font-semibold mb-4">Play Bad Parenting: HONOR Version</h3>
-          <div className="aspect-w-16 aspect-h-9 h-[70vh] mb-8">
+          <div className="aspect-w-16 aspect-h-9 h-[70vh] mb-8 relative">
             <iframe 
+              ref={iframe2Ref}
               src="https://play.unity.com/api/v1/struckd/app?game=bad-parings-struckd-version&unity=unity" 
               className="w-full h-full"
               frameBorder="0" 
               allowFullScreen
               title="Bad Parenting Game - HONOR Version"
             ></iframe>
+            <button
+              onClick={() => handleFullscreen(iframe2Ref)}
+              className="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Fullscreen
+            </button>
           </div>
         </div>
-
         <div className="max-w-3xl mx-auto">
           <h3 className="text-2xl font-semibold mb-4">A Dark Encounter in a Family Home</h3>
           <p className="mb-6">
