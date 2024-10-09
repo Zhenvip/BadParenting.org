@@ -1,6 +1,6 @@
 
 import { siteConfig } from "@/config/site";
-import { Tier, TiersEnum } from "@/types/pricing";
+import { Tier, TiersEnum } from "@/types/Download";
 
 export const TIERS_EN: Array<Tier> = [
   {
