@@ -1,80 +1,54 @@
+Here's a draft using Markdown for the Bad Parenting website, keeping the original format but replacing the content:
+
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
+# [Bad Parenting](https://badparenting.org/)
 
-# [Landing page boilerplate](https://landingpage.weijunext.com/)
+A dark humor simulation game exploring the consequences of poor parenting choices.
 
-A versatile landing page boilerplate, ideal for various projects and marketing campaigns.
+Download Address: https://badparenting.org
 
-Demo address：https://landingpage.weijunext.com
-
-Used this template? Get featured in [our Showcase](https://landingpage.weijunext.com/#Showcase)! Submit your site via [GitHub Issues](https://github.com/weijunext/landing-page-boilerplate/issues) for a free dofollow link.
-
-Blog: 
-[我为独立开发者开发落地页模板（一）](https://juejin.cn/post/7344567650457010191)  
-[我为独立开发者开发落地页模板（二）](https://juejin.cn/post/7350200488455520267)
-
-[![Landing page boilerplate](./public/og.png)](https://landingpage.weijunext.com/)
-
-## Tech Stack 
-
-Landing page boilerplate is built on the following stack:
-
-- Next.js – Frontend/Backend
-- TailwindCSS – Styles
-- Google Analytics
-- Vercel - Hosting
+Used this game? Share your experience in [our Community](https://badparenting.org/#Community)! Submit your story via [GitHub Issues](https://github.com/badparenting/bad-parenting-game/issues) for a chance to be featured.
 
 
+[![Bad Parenting Game](./public/bad-parenting-cover.png)](https://badparenting.org/)
 
-## Running Locally
+## Game Features
 
-After cloning the repo, you need to copy the `.env.example` file to create a `.env` file and fill in the required fields.
+Bad Parenting offers a unique gaming experience:
 
-Then, run the application in the command line and it will be available at `http://localhost:3000`.
+- Narrative-driven gameplay with multiple endings
+- Dark humor blended with psychological horror elements  
+- Challenging moral decisions that impact the story
+- Retro-inspired graphics reminiscent of 90s cartoons
+- Approximately 30 minutes of gameplay per playthrough
 
-```bash
-npm run dev
-```
+## System Requirements
 
-## Build Your Project
+- OS: Windows 7/10/11
+- Processor: Intel i3 3220 or better
+- Memory: 4 GB RAM
+- Graphics: GTX 650 Ti or equivalent
+- Storage: 500 MB available space
 
-Edit these files:
-- `.env` or `.env.local`
-- `config/site.ts`, fill in your website information.
-- `public`, change logo file
-- `public/robots.txt`
-- `app/sitemap.ts`
+## Installation
 
+1. Download the game from [our website](https://badparenting.org).
+2. Run the installer and follow the on-screen instructions.
+3. Launch the game and prepare for a disturbing yet thought-provoking experience.
 
+## Content Warning
 
-## One-Click Deploy
+Bad Parenting contains mature themes including:
 
-Deploy the example using Vercel or Zeabur:
+- Scenes depicting harm to child characters
+- References to domestic violence
+- Potentially triggering content for those with childhood trauma
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/landing-page-boilerplate&project-name=&repository-name=landing-page-boilerplate&demo-title=LandingPageBoilerplate&demo-description=Landing%20page%20boilerplate.&demo-url=https://landingpage.weijunext.com&demo-image=https://landingpage.weijunext.com/og.png)
+Player discretion is strongly advised.
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/D92G1L)
+If you enjoy Bad Parenting, consider supporting our work:
 
-## About Me
+<a href="https://www.buymeacoffee.com/mrrhunt" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
 
-**Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
-
-**全栈工程师，Next.js 开源手艺人，AI降临派。**
-
-[My Blog](https://weijunext.com)  
-[Github](https://github.com/weijunext)  
-[Twitter/X](https://twitter.com/weijunext)  
-[Twitter/X - En](https://twitter.com/wayne_dev)  
-[Medium](https://medium.com/@weijunext)  
-[掘金](https://juejin.cn/user/26044008768029)  
-[知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
-[微信交流群](https://weijunext.com/make-a-friend)  
-
-If this project is helpful to you, star the repo and buy be a coffee, thank you.
-
-<a href="https://www.buymeacoffee.com/weijunext" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
-
-
-<a href="https://afdian.net/a/weijunext" target="_blank"><img src="./public/afd.png" alt="在爱发电支持我" style="height: 50px !important"></a>
-
-<img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">
+<img src="./public/donate-qr.png" alt="Donate via QR Code" style="height: 200px; width: 200px">
