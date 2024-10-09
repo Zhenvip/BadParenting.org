@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
     <Link
-      href="https://github.com/Zhenvip/BadParenting.org/"
+      href="https://BadParenting.org/"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
