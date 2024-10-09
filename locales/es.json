@@ -1,46 +1,47 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "Página de aterrizaje",
-    "title3": "construcción rápida"
+    "title1": "Juega",
+    "title2": "Mala Crianza",
+    "title3": "¡Ahora!",
+    "description": "Historia: El Sr. Cara Roja, un personaje ficticio creado por adultos para enseñar a sus hijos. Se dice que a menudo aparece tarde en la noche para dar regalos a los niños que se portan bien. Pero, ¿es realmente tan simple la historia del Sr. Cara Roja?"
   },
   "SocialProof": {
-    "maker": "creadores construyen rápido"
+    "maker": "¡A los jugadores les encanta!"
   },
   "Showcase": {
-    "title": "Escaparate",
-    "description": "Únete a más de 1000 creadores que aumentan sus conversiones con nuestra plantilla de página de aterrizaje"
+    "title": "Exhibición",
+    "description": "Ron, el personaje principal del juego, quien será testigo del sufrimiento que el Sr. Cara Roja trae a su familia."
   },
   "Feature": {
     "title": "Características"
   },
-  "Pricing": {
-    "title": "Precios",
+  "Download": {
+    "title": "Descargar",
     "title2": "Obtén acceso ilimitado.",
-    "description": "La página que estás viendo actualmente es un template gratuito y de código abierto.",
-    "doYouLike": "¿Te gusta este template para páginas de aterrizaje?",
-    "follow": "Sigue mi Twitter."
+    "description": "Este es mi primer juego de terror y siempre será gratuito. ¡Puedes comprarlo para apoyar mi viaje de desarrollo de juegos! 💖",
+    "doYouLike": "¿Te gusta este juego de terror?",
+    "follow": "Sígueme en Twitter."
   },
   "Testimonials": {
-    "title": "Muro del Amor",
-    "description1": "Si usas esta plantilla para página de aterrizaje y la recomiendas en tu Twitter,",
+    "title": "Testimonios",
+    "description1": "Si juegas este juego de terror sobre mala crianza y lo recomiendas en tu Twitter,",
     "description2": "por favor házmelo saber",
-    "description3": ". Exhibiré tu tweet y recomendación aquí."
+    "description3": ". Mostraré tu tweet y recomendación aquí."
   },
   "FAQ": {
-    "title": "Preguntas Frecuentes",
+    "title": "Preguntas frecuentes",
     "description": "Aquí están algunas de las preguntas más frecuentes."
   },
   "CTA": {
-    "title": "Construye tu página de aterrizaje ahora",
-    "description1": "Construye",
-    "description2": "tu página de aterrizaje,",
-    "description3": "muestra",
-    "description4": "tu producto, y",
-    "description5": "comienza a ganar",
-    "description6": "¡dinero!"
+    "title": "Juega Mala Crianza Ahora Mismo",
+    "description1": "Sumérgete",
+    "description2": "en el terror en 2024,",
+    "description3": "comienza",
+    "description4": "tu",
+    "description5": "espeluznante aventura",
+    "description6": "¡hoy!"
   },
   "CTAButton": {
-    "title": "Obtener Plantilla"
+    "title": "Jugar Ahora"
   }
 }
