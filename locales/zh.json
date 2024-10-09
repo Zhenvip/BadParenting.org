@@ -1,47 +1,47 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
-    "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "title1": "立即",
+    "title2": "體驗不良教養",
+    "title3": "遊戲！",
+    "description": "故事：紅臉先生是成年人為教育孩子而創造的虛構角色。據說他經常在深夜出現，給乖巧的孩子們送禮物。但紅臉先生的故事真的如此簡單嗎？"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "玩家們都喜愛！"
   },
   "Showcase": {
-    "title": "Showcase",
-    "description": "与1000+创作者一起，使用我们的落地页模板提升转化率"
+    "title": "展示",
+    "description": "遊戲的主角羅恩，他將目睹紅臉先生給他的家庭帶來的苦難。"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "特色"
   },
-  "Pricing": {
-    "title": "定价",
-    "title2": "拥有无限访问权限",
-    "description": "你当前查看的页面是一个开源的、免费的模板。",
-    "doYouLike": "你喜欢这个落地页模板吗？",
-    "follow": "关注我的推特。"
+  "Download": {
+    "title": "下載",
+    "title2": "獲得無限制訪問。",
+    "description": "這是我的第一款恐怖遊戲，它將永遠免費。你可以購買它來支持我的遊戲開發之旅！💖",
+    "doYouLike": "你喜歡這款恐怖遊戲嗎？",
+    "follow": "在推特上關注我。"
   },
   "Testimonials": {
-    "title": "Testimonials",
-    "description1": "如果你使用这个落地页模板并在推特上推荐了，",
-    "description2": "请告诉我",
-    "description3": "，我会在这里展示你的推文和推荐。"
+    "title": "用戶評價",
+    "description1": "如果你玩了這款關於不良教養的恐怖遊戲並在你的推特上推薦，",
+    "description2": "請讓我知道",
+    "description3": "。我會在這裡展示你的推文和推薦。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "这里有一些最常见的问题。"
+    "title": "常見問題",
+    "description": "以下是一些最常見的問題。"
   },
   "CTA": {
-    "title": "立即构建你的落地页",
-    "description1": "构建",
-    "description2": "你的落地页，",
-    "description3": "展示",
-    "description4": "你的产品，并开始",
-    "description5": "赚取收入",
-    "description6": "！"
+    "title": "立即體驗不良教養",
+    "description1": "在2024年",
+    "description2": "投入恐怖氛圍，",
+    "description3": "今天就",
+    "description4": "開始你的",
+    "description5": "詭異冒險",
+    "description6": "吧！"
   },
   "CTAButton": {
-    "title": "获取模板"
+    "title": "立即遊玩"
   }
 }
