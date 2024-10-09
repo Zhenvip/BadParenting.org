@@ -54,7 +54,7 @@ export const GameDescription: React.FC = () => {
           <h3 className="text-2xl font-semibold mb-4 text-center">Play Bad Parenting: Original Version</h3>
           <div className="aspect-w-16 aspect-h-9">
             <iframe 
-              src="https://fnf-online.io/bad-parenting-1" 
+              src="https://fnf-online.io/bad-parenting-1.embed" 
               className="w-full h-full"
               frameBorder="0" 
               allowFullScreen
