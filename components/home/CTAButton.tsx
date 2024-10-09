@@ -25,17 +25,17 @@ export const GameDescription = () => {
     <div className="mt-8 text-center">
       <h2 className="text-2xl font-bold mb-4">Bad Parenting: A Chilling Tale</h2>
       <p className="mb-4">
-        Step into a twisted world where childhood stories take a sinister turn. "Bad Parenting" 
+        Step into a twisted world where childhood stories take a sinister turn. &quot;Bad Parenting&quot; 
         challenges you to unravel the mystery of the Red-Faced Man, a once-benign figure now 
         cloaked in terror.
       </p>
       <p className="mb-4">
-        As young Ron, you'll navigate a harrowing night filled with family secrets and 
-        supernatural dread. Your choices will shape the story's outcome in this compact yet 
+        As young Ron, you&apos;ll navigate a harrowing night filled with family secrets and 
+        supernatural dread. Your choices will shape the story&apos;s outcome in this compact yet 
         intense 20-minute horror experience.
       </p>
       <p>
-        With intuitive controls and support for over 20 languages, "Bad Parenting" offers 
+        With intuitive controls and support for over 20 languages, &quot;Bad Parenting&quot; offers 
         an accessible yet deeply unsettling journey into the heart of childhood fears.
       </p>
       <div id="game-iframe" className="mt-8">
