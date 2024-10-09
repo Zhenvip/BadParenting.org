@@ -1,6 +1,4 @@
-Here's a draft using Markdown for the Bad Parenting website, keeping the original format but replacing the content:
-
-🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
+🌍 *[English](README.md) ∙ [Germany](README-de.md)*
 
 # [Bad Parenting](https://badparenting.org/)
 
