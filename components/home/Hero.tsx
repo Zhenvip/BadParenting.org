@@ -1,5 +1,6 @@
 "use client";
 import { LineText } from "@/components/LineText";
+import { GameDescription } from "@/components/GameDescription";
 import CTAButton from "@/components/home/CTAButton";
 
 const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
@@ -28,6 +29,8 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           {locale.description}
         </p>
       </section>
+          <GameDescription />  {/* 添加这一行 */}
+
       {/* </motion.div> */}
       <CTAButton locale={CTALocale}></CTAButton>
     </>
