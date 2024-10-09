@@ -5,20 +5,21 @@ export const GameDescription: React.FC = () => {
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-4xl font-bold mb-8 text-center">Bad Parenting: A Chilling Tale of Mr. Red Face</h2>
       
-        <div className="space-y-8">
-          <div>
-            <h3 className="text-2xl font-semibold mb-4 text-center">Play Bad Parenting: Original Version</h3>
-            <div className="aspect-w-16 aspect-h-9 h-[70vh]">
-              <iframe 
-                src="https://fnf-online.io/bad-parenting-1.embed" 
-                className="w-full h-full"
-                frameBorder="0" 
-                allowFullScreen
-                title="Bad Parenting Game - Original Version"
-              ></iframe>
-            </div>
+      <div className="space-y-8 mb-12">
+        <div>
+          <h3 className="text-2xl font-semibold mb-4 text-center">Play Bad Parenting: Original Version</h3>
+          <div className="aspect-w-16 aspect-h-9 h-[80vh]">
+            <iframe 
+              src="https://fnf-online.io/bad-parenting-1.embed" 
+              className="w-full h-full"
+              frameBorder="0" 
+              allowFullScreen
+              title="Bad Parenting Game - Original Version"
+            ></iframe>
           </div>
-          
+        </div>
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="space-y-6 text-lg">
           <p>
@@ -35,21 +36,6 @@ export const GameDescription: React.FC = () => {
             appeared to Ron&apos;s family.
           </p>
 
-          
-
-          <div>
-            <h3 className="text-2xl font-semibold mb-4 text-center">Play Bad Parenting: HONOR Version</h3>
-            <div className="aspect-w-16 aspect-h-9 h-[70vh]">
-              <iframe 
-                src="https://play.unity.com/api/v1/struckd/app?game=bad-parings-struckd-version&unity=unity" 
-                className="w-full h-full"
-                frameBorder="0" 
-                allowFullScreen
-                title="Bad Parenting Game - HONOR Version"
-              ></iframe>
-            </div>
-          </div>
-
           <h3 className="text-2xl font-semibold mt-8 mb-4">A Dark Encounter in a Family Home</h3>
           <p>
             As the night unfolds, players must navigate Ron through his dimly lit house using standard movement controls, 
@@ -65,6 +51,19 @@ export const GameDescription: React.FC = () => {
           </p>
         </div>
 
+        <div className="space-y-8">
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 text-center">Play Bad Parenting: HONOR Version</h3>
+            <div className="aspect-w-16 aspect-h-9 h-[70vh]">
+              <iframe 
+                src="https://play.unity.com/api/v1/struckd/app?game=bad-parings-struckd-version&unity=unity" 
+                className="w-full h-full"
+                frameBorder="0" 
+                allowFullScreen
+                title="Bad Parenting Game - HONOR Version"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
