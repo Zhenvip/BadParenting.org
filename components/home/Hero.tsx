@@ -29,8 +29,6 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           {locale.description}
         </p>
       </section>
-          <GameDescription />  {/* 添加这一行 */}
-
       {/* </motion.div> */}
       <CTAButton locale={CTALocale}></CTAButton>
     </>
