@@ -1,16 +1,16 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Play",
+    "title2": "Bad Parenting",
+    "title3": "Now!",
+    "description": "Story: Mr. Red Face, a fictional character created by adults to teach their children. It's said that he often appears late at night to give gifts to well-behaved kids. But is the story of Mr. Red Face really that simple?"
   },
   "SocialProof": {
-    "maker": "makers ship fast"
+    "maker": "Players Love!"
   },
   "Showcase": {
     "title": "Showcase",
-    "description": "Join 1000+ Makers Boosting Conversions with Our Landing Page Boilerplate"
+    "description": "Ron, the main character of the game, who will witness the suffering that Mr. Red Face brings to his family."
   },
   "Feature": {
     "title": "Features"
@@ -18,13 +18,13 @@
   "Download": {
     "title": "Download",
     "title2": "Get unlimited access.",
-    "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
+    "description": "This is my first horror game and it will always be free. You can buy it to support my game dev journey! 💖",
+    "doYouLike": "Do you like this horror game?",
     "follow": "Follow my Twitter."
   },
   "Testimonials": {
     "title": "Testimonials",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
+    "description1": "If you play this horror bad parenting game and recommend it on your Twitter,",
     "description2": "please let me know",
     "description3": ". I will display your tweet and recommendation here."
   },
@@ -33,15 +33,15 @@
     "description": "Here are some of the most frequently asked questions."
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
-    "description6": "!"
+    "title": "Play Bad Parenting Right Now",
+    "description1": "Dive",
+    "description2": "into horror in 2024,",
+    "description3": "start",
+    "description4": "your",
+    "description5": "eerie adventure",
+    "description6": "today!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Play Now"
   }
 }
