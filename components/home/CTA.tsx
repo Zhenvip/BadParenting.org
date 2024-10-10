@@ -21,8 +21,8 @@ const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           {locale.description6}
         </p>
       </div>
-      <CTAButton locale={CTALocale} />
-      
+
+         
       {/* HTML5 Game Iframe */}
       <div className="w-full max-w-4xl mt-8">
         <iframe 
@@ -34,6 +34,9 @@ const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           title="Bad Parenting HTML5 Game"
         ></iframe>
       </div>
+      
+      <CTAButton locale={CTALocale} />
+   
     </section>
   );
 };
