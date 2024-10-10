@@ -1,22 +1,21 @@
-
 import { siteConfig } from "@/config/site";
 import { Tier, TiersEnum } from "@/types/Download";
 
 export const TIERS_EN: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "Open-Source / Free",
+    title: "Download / Free",
     price: "Free",
     href: siteConfig.openSourceURL || "#",
     description:
-      "Freely clone the landing page boilerplate from the GitHub repository.",
+      "Freely download the Bad Parenting file. Donations are welcome to support our work.",
     features: [
-      "Free",
-      "Access to full code",
-      "Secondary development",
-      "MIT License",
+      "Free download",
+      "Optional donation",
+      "Support our project",
+      "Access to full content",
     ],
-    buttonText: "Get started",
+    buttonText: "Download Now",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -25,7 +24,7 @@ export const TIERS_EN: Array<Tier> = [
     title: "Customize",
     href: siteConfig.authors[0].twitter || "#",
     description: "Pay to customize an exclusive landing page.",
-    price: "$188",
+    price: "$1.88",
     features: [
       "Access to full code",
       "Secondary development",
@@ -42,17 +41,17 @@ export const TIERS_EN: Array<Tier> = [
 export const TIERS_ZH: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "开源 / 免费",
+    title: "下载 / 免费",
     price: "免费",
     href: siteConfig.openSourceURL || "#",
-    description: "可从GitHub仓库免费克隆落地页模板。",
+    description: "免费下载Bad Parenting文件。欢迎捐赠支持我们的工作。",
     features: [
-      "免费",
-      "访问全部代码",
-      "二次开发",
-      "MIT 许可证",
+      "免费下载",
+      "自愿捐赠",
+      "支持我们的项目",
+      "访问全部内容",
     ],
-    buttonText: "开始",
+    buttonText: "立即下载",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -61,7 +60,7 @@ export const TIERS_ZH: Array<Tier> = [
     title: "定制",
     href: siteConfig.authors[0].twitter || "#",
     description: "支付定制专属落地页。",
-    price: "$188",
+    price: "$1.88",
     features: [
       "访问全部代码",
       "二次开发",
@@ -78,17 +77,17 @@ export const TIERS_ZH: Array<Tier> = [
 export const TIERS_JA: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "オープンソース / 無料",
+    title: "ダウンロード / 無料",
     price: "無料",
     href: siteConfig.openSourceURL || "#",
-    description: "GitHubリポジトリからランディングページのボイラープレートを自由にクローンできます。",
+    description: "Bad Parentingファイルを無料でダウンロードできます。私たちの活動を支援するための寄付も歓迎します。",
     features: [
-      "無料",
-      "全コードへのアクセス",
-      "二次開発",
-      "MITライセンス",
+      "無料ダウンロード",
+      "任意の寄付",
+      "プロジェクト支援",
+      "全コンテンツへのアクセス",
     ],
-    buttonText: "始める",
+    buttonText: "今すぐダウンロード",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -97,7 +96,7 @@ export const TIERS_JA: Array<Tier> = [
     title: "カスタマイズ",
     href: siteConfig.authors[0].twitter || "#",
     description: "専用のランディングページをカスタマイズするために支払います。",
-    price: "$188",
+    price: "$1.88",
     features: [
       "全コードへのアクセス",
       "二次開発",
@@ -114,17 +113,17 @@ export const TIERS_JA: Array<Tier> = [
 export const TIERS_AR: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "مفتوح المصدر / مجاني",
+    title: "تحميل / مجاني",
     price: "مجاناً",
     href: siteConfig.openSourceURL || "#",
-    description: "يمكنك نسخ قالب صفحة الهبوط من مستودع GitHub بحرية.",
+    description: "قم بتحميل ملف Bad Parenting مجانًا. نرحب بالتبرعات لدعم عملنا.",
     features: [
-      "مجاني",
-      "الوصول إلى كامل الكود",
-      "التطوير الثانوي",
-      "رخصة MIT",
+      "تحميل مجاني",
+      "تبرع اختياري",
+      "دعم مشروعنا",
+      "الوصول إلى المحتوى الكامل",
     ],
-    buttonText: "ابدأ الآن",
+    buttonText: "تحميل الآن",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -133,7 +132,7 @@ export const TIERS_AR: Array<Tier> = [
     title: "تخصيص",
     href: siteConfig.authors[0].twitter || "#",
     description: "ادفع لتخصيص صفحة هبوط حصرية.",
-    price: "$188",
+    price: "$1.88",
     features: [
       "الوصول إلى كامل الكود",
       "التطوير الثانوي",
@@ -150,18 +149,18 @@ export const TIERS_AR: Array<Tier> = [
 export const TIERS_ES: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "Código Abierto / Gratuito",
+    title: "Descargar / Gratis",
     price: "Gratis",
     href: siteConfig.openSourceURL || "#",
     description:
-      "Clona libremente la plantilla de página de aterrizaje desde el repositorio de GitHub.",
+      "Descarga gratuitamente el archivo Bad Parenting. Se agradecen donaciones para apoyar nuestro trabajo.",
     features: [
-      "Gratis",
-      "Acceso a todo el código",
-      "Desarrollo secundario",
-      "Licencia MIT",
+      "Descarga gratuita",
+      "Donación opcional",
+      "Apoya nuestro proyecto",
+      "Acceso al contenido completo",
     ],
-    buttonText: "Comenzar",
+    buttonText: "Descargar ahora",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -170,7 +169,7 @@ export const TIERS_ES: Array<Tier> = [
     title: "Personalizar",
     href: siteConfig.authors[0].twitter || "#",
     description: "Paga para personalizar una página de aterrizaje exclusiva.",
-    price: "$188",
+    price: "$1.88",
     features: [
       "Acceso a todo el código",
       "Desarrollo secundario",
@@ -187,18 +186,18 @@ export const TIERS_ES: Array<Tier> = [
 export const TIERS_RU: Array<Tier> = [
   {
     key: TiersEnum.Free,
-    title: "Открытый Источник / Бесплатно",
+    title: "Скачать / Бесплатно",
     price: "Бесплатно",
     href: siteConfig.openSourceURL || "#",
     description:
-      "Свободно клонируйте шаблон лендинга из репозитория на GitHub.",
+      "Скачайте файл Bad Parenting бесплатно. Пожертвования для поддержки нашей работы приветствуются.",
     features: [
-      "Бесплатно",
-      "Доступ ко всему коду",
-      "Вторичная разработка",
-      "Лицензия MIT",
+      "Бесплатное скачивание",
+      "Добровольное пожертвование",
+      "Поддержка нашего проекта",
+      "Доступ ко всему содержимому",
     ],
-    buttonText: "Начать",
+    buttonText: "Скачать сейчас",
     buttonColor: "primary",
     buttonVariant: "solid",
   },
@@ -207,7 +206,7 @@ export const TIERS_RU: Array<Tier> = [
     title: "Настройка",
     href: siteConfig.authors[0].twitter || "#",
     description: "Оплатите персонализацию эксклюзивной лендинг страницы.",
-    price: "$188",
+    price: "$1.88",
     features: [
       "Доступ ко всему коду",
       "Вторичная разработка",
