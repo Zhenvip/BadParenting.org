@@ -1,210 +1,205 @@
-import { LucideIcon, MagnetIcon } from "lucide-react";
+import { LucideIcon, GhostIcon, SearchIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
-import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
+import { BsController } from "react-icons/bs";
+import { FaLanguage } from "react-icons/fa";
+import { FaHourglassHalf, FaBrain } from "react-icons/fa6";
+import { MdSplitscreen } from "react-icons/md";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Chilling Storyline",
+    content: "Uncover the dark truth behind Mr. Red Face, a seemingly benign character in local folklore.",
+    icon: GhostIcon,
   },
   {
-    title: "Responsive Design",
-    content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+    title: "Immersive Exploration",
+    content: "Navigate through Ron's family home, interacting with objects to unveil the mystery.",
+    icon: SearchIcon,
   },
   {
-    title: "Easy Customization",
-    content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+    title: "Dual Versions",
+    content: "Experience the tale in both original and HONOR versions for different gameplay experiences.",
+    icon: MdSplitscreen,
   },
   {
-    title: "SEO Optimized",
-    content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+    title: "Multilingual Support",
+    content: "Play in English, Vietnamese, or French to reach a global audience.",
+    icon: FaLanguage,
   },
   {
-    title: "One-Click Deployment",
-    content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+    title: "Quick Playthrough",
+    content: "Enjoy a concise yet impactful 20-minute gaming experience filled with suspense.",
+    icon: FaHourglassHalf,
   },
   {
-    title: "Globalization Support",
-    content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+    title: "Thought-Provoking Themes",
+    content: "Reflect on the consequences of folklore and parental storytelling in this narrative-driven game.",
+    icon: FaBrain,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "令人毛骨悚然的故事情节",
+    content: "揭开红脸先生背后的黑暗真相，这个看似善良的民间传说角色。",
+    icon: GhostIcon,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "沉浸式探索",
+    content: "在Ron的家中导航，与物品互动以揭开谜团。",
+    icon: SearchIcon,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "双版本体验",
+    content: "体验原版和荣耀版本，获得不同的游戏体验。",
+    icon: MdSplitscreen,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "多语言支持",
+    content: "支持英语、越南语和法语，吸引全球玩家。",
+    icon: FaLanguage,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "快速游玩",
+    content: "享受简洁但影响深远的20分钟充满悬疑的游戏体验。",
+    icon: FaHourglassHalf,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "引人深思的主题",
+    content: "在这个叙事驱动的游戏中反思民间传说和父母讲故事的后果。",
+    icon: FaBrain,
   },
 ];
 
 export const FEATURES_JA = [
   {
-    title: "オープンソースの利点",
-    content: "完全無料で、豊富なカスタマイズオプションを提供。",
-    icon: BsGithub,
+    title: "ぞっとするストーリーライン",
+    content: "一見無害な民間伝承のキャラクター、レッドフェイス氏の背後にある暗い真実を明らかにします。",
+    icon: GhostIcon,
   },
   {
-    title: "レスポンシブデザイン",
-    content: "どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。",
-    icon: FaMobileScreenButton,
+    title: "没入型探索",
+    content: "ロンの家族の家を探索し、オブジェクトと相互作用して謎を解き明かします。",
+    icon: SearchIcon,
   },
   {
-    title: "簡単カスタマイズ",
-    content: "色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。",
-    icon: FaToolbox,
+    title: "デュアルバージョン",
+    content: "オリジナル版とHONOR版の両方で物語を体験し、異なるゲームプレイを楽しめます。",
+    icon: MdSplitscreen,
   },
   {
-    title: "SEO最適化",
-    content: "ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。",
-    icon: MagnetIcon,
+    title: "多言語サポート",
+    content: "英語、ベトナム語、フランス語でプレイ可能で、グローバルな観客にリーチします。",
+    icon: FaLanguage,
   },
   {
-    title: "ワンクリックデプロイメント",
-    content: "主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。",
-    icon: MdCloudUpload,
+    title: "短時間プレイ",
+    content: "簡潔ながらインパクトのある20分間のサスペンス満載のゲーム体験をお楽しみください。",
+    icon: FaHourglassHalf,
   },
   {
-    title: "グローバリゼーションサポート",
-    content: "複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。",
-    icon: FaEarthAsia,
+    title: "考えさせられるテーマ",
+    content: "このナラティブ駆動型ゲームで、民間伝承と親の語り聞かせの影響について考えます。",
+    icon: FaBrain,
   },
 ];
 
 export const FEATURES_AR = [
   {
-    title: "ميزة المصدر المفتوح",
-    content: "مجانية بالكامل مع ثروة من خيارات التخصيص.",
-    icon: BsGithub,
+    title: "قصة مرعبة",
+    content: "اكتشف الحقيقة المظلمة وراء السيد وجه أحمر، شخصية تبدو حميدة في الفولكلور المحلي.",
+    icon: GhostIcon,
   },
   {
-    title: "تصميم متجاوب",
-    content: "تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.",
-    icon: FaMobileScreenButton,
+    title: "استكشاف غامر",
+    content: "تنقل عبر منزل عائلة رون، وتفاعل مع الأشياء لكشف الغموض.",
+    icon: SearchIcon,
   },
   {
-    title: "تخصيص سهل",
-    content: "غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.",
-    icon: FaToolbox,
+    title: "نسختان للعب",
+    content: "جرب القصة في كل من النسخة الأصلية ونسخة HONOR للحصول على تجارب لعب مختلفة.",
+    icon: MdSplitscreen,
   },
   {
-    title: "مُحسّن لمحركات البحث",
-    content: "تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.",
-    icon: MagnetIcon,
+    title: "دعم متعدد اللغات",
+    content: "العب باللغة الإنجليزية أو الفيتنامية أو الفرنسية للوصول إلى جمهور عالمي.",
+    icon: FaLanguage,
   },
   {
-    title: "نشر بنقرة واحدة",
-    content: "متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.",
-    icon: MdCloudUpload,
+    title: "لعب سريع",
+    content: "استمتع بتجربة لعب موجزة ولكن مؤثرة لمدة 20 دقيقة مليئة بالإثارة.",
+    icon: FaHourglassHalf,
   },
   {
-    title: "دعم العولمة",
-    content: "يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.",
-    icon: FaEarthAsia,
+    title: "مواضيع تدعو للتفكير",
+    content: "تأمل في عواقب الفولكلور ورواية القصص من قبل الوالدين في هذه اللعبة المدفوعة بالسرد.",
+    icon: FaBrain,
   },
 ];
 
 export const FEATURES_ES = [
   {
-    title: "Ventaja del Código Abierto",
-    content: "Completamente gratuito con una riqueza de opciones de personalización.",
-    icon: BsGithub,
+    title: "Trama Escalofriante",
+    content: "Descubre la oscura verdad detrás del Sr. Cara Roja, un personaje aparentemente inofensivo del folclore local.",
+    icon: GhostIcon,
   },
   {
-    title: "Diseño Responsivo",
-    content: "Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.",
-    icon: FaMobileScreenButton,
+    title: "Exploración Inmersiva",
+    content: "Navega por la casa familiar de Ron, interactuando con objetos para desvelar el misterio.",
+    icon: SearchIcon,
   },
   {
-    title: "Personalización Fácil",
-    content: "Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.",
-    icon: FaToolbox,
+    title: "Versiones Duales",
+    content: "Experimenta la historia en las versiones original y HONOR para diferentes experiencias de juego.",
+    icon: MdSplitscreen,
   },
   {
-    title: "Optimizado para SEO",
-    content: "Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.",
-    icon: MagnetIcon,
+    title: "Soporte Multilingüe",
+    content: "Juega en inglés, vietnamita o francés para llegar a una audiencia global.",
+    icon: FaLanguage,
   },
   {
-    title: "Despliegue con Un Clic",
-    content: "Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.",
-    icon: MdCloudUpload,
+    title: "Juego Rápido",
+    content: "Disfruta de una experiencia de juego concisa pero impactante de 20 minutos llena de suspense.",
+    icon: FaHourglassHalf,
   },
   {
-    title: "Soporte de Globalización",
-    content: "Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.",
-    icon: FaEarthAsia,
+    title: "Temas que Invitan a la Reflexión",
+    content: "Reflexiona sobre las consecuencias del folclore y la narración de cuentos por parte de los padres en este juego narrativo.",
+    icon: FaBrain,
   },
 ];
 
 export const FEATURES_RU = [
   {
-    title: "Преимущество Открытого Исходного Кода",
-    content: "Полностью бесплатно с широкими возможностями настройки.",
-    icon: BsGithub,
+    title: "Леденящий Душу Сюжет",
+    content: "Раскройте мрачную правду о мистере Красном Лице, казалось бы, безобидном персонаже местного фольклора.",
+    icon: GhostIcon,
   },
   {
-    title: "Адаптивный Дизайн",
-    content: "Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.",
-    icon: FaMobileScreenButton,
+    title: "Иммерсивное Исследование",
+    content: "Перемещайтесь по дому семьи Рона, взаимодействуя с предметами, чтобы раскрыть тайну.",
+    icon: SearchIcon,
   },
   {
-    title: "Легкая Настройка",
-    content: "Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.",
-    icon: FaToolbox,
+    title: "Две Версии",
+    content: "Испытайте историю в оригинальной и HONOR версиях для разного игрового опыта.",
+    icon: MdSplitscreen,
   },
   {
-    title: "Оптимизировано для Поисковых Систем",
-    content: "Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.",
-    icon: MagnetIcon,
+    title: "Многоязычная Поддержка",
+    content: "Играйте на английском, вьетнамском или французском языках, охватывая глобальную аудиторию.",
+    icon: FaLanguage,
   },
   {
-    title: "Развертывание в Один Клик",
-    content: "Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.",
-    icon: MdCloudUpload,
+    title: "Быстрое Прохождение",
+    content: "Наслаждайтесь кратким, но впечатляющим 20-минутным игровым опытом, полным саспенса.",
+    icon: FaHourglassHalf,
   },
   {
-    title: "Поддержка Глобализации",
-    content: "Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.",
-    icon: FaEarthAsia,
+    title: "Темы, Побуждающие к Размышлению",
+    content: "Размышляйте о последствиях фольклора и родительского рассказывания историй в этой нарративной игре.",
+    icon: FaBrain,
   },
 ];
 
@@ -223,4 +218,4 @@ export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_AR,
   FEATURES_ES,
   FEATURES_RU
-}
+};
