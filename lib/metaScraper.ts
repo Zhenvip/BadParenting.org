@@ -26,7 +26,7 @@ const defaultOptions: Required<ScraperOptions> = {
   timeout: 10000,
   maxRedirects: 5,
   headers: {
-    'User-Agent': 'ModernMetaScraper/1.0 (+https://baddparenting.com/; charlie0simmon@gmail.com)'
+    'User-Agent': 'ModernMetaScraper/1.0 (+https://baddparenting.org/; charlie0simmon@gmail.com)'
   },
 };
 
