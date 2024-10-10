@@ -29,6 +29,7 @@ export const metadata = {
   openGraph: siteConfig.openGraph,
   twitter: siteConfig.twitter,
 };
+
 export const viewport: Viewport = {
   themeColor: siteConfig.themeColors,
 };
@@ -42,10 +43,10 @@ export default async function RootLayout({
 }) {
   return (
     <html lang={lang || defaultLocale} suppressHydrationWarning>
-      <head />
-      <script defer data-domain="badparenting.org" src="https://click.pageview.click/js/script.js"></script>
-      <SEO canonicalUrl="https://www.badparenting.org" />
-
+      <head>
+        <link rel="canonical" href="https://www.badparenting.org" />
+        <script defer data-domain="badparenting.org" src="https://click.pageview.click/js/script.js"></script>
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
