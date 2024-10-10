@@ -17,7 +17,7 @@ const baseSiteConfig = {
     {
       name: "BadParenting.org",
       url: "https://BadParenting.org",
-      twitter: 'https://x.com/simmon_charlie',
+      twitter: 'https://buymeacoffee.com/mrrhunt',
     }
   ],
   creator: '@2002games',
@@ -34,7 +34,7 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/BadParenting", icon: BsTwitterX },
+    { name: 'twitter', href: "https://buymeacoffee.com/mrrhunt", icon: BsTwitterX },
     { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/mrrhunt", icon: SiBuymeacoffee }
   ],
   footerLinks: [
