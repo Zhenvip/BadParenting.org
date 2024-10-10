@@ -32,7 +32,7 @@ export const TIERS_EN: Array<Tier> = [
       "One-on-one service",
       "More exquisite pages",
     ],
-    buttonText: "Contact us",
+    buttonText: "Support Me",
     buttonColor: "default",
     buttonVariant: "flat",
   },
