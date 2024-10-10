@@ -12,7 +12,7 @@ const CTAButton = ({ locale }: { locale: any }) => {
       <Button
         variant="default"
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
-        aria-label="Download Now  "
+        aria-label="Play Bad Parenting Now  "
       >
         <RocketIcon />
         {locale.title}
