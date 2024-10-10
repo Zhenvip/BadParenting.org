@@ -21,7 +21,7 @@ export const TIERS_EN: Array<Tier> = [
   },
   {
     key: TiersEnum.Customize,
-    title: "Customize",
+    title: "Support",
     href: siteConfig.authors[0].twitter || "#",
     description: "Pay to customize an exclusive landing page.",
     price: "$1.88",
@@ -32,7 +32,7 @@ export const TIERS_EN: Array<Tier> = [
       "One-on-one service",
       "More exquisite pages",
     ],
-    buttonText: "Support Me",
+    buttonText: "Patron Me",
     buttonColor: "default",
     buttonVariant: "flat",
   },
