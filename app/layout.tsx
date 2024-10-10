@@ -44,6 +44,7 @@ export default async function RootLayout({
     <html lang={lang || defaultLocale} suppressHydrationWarning>
       <head />
       <script defer data-domain="badparenting.org" src="https://click.pageview.click/js/script.js"></script>
+      <SEO canonicalUrl="https://www.badparenting.org" />
 
       <body
         className={cn(
