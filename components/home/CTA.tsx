@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";
 
@@ -23,6 +22,18 @@ const CTA = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
         </p>
       </div>
       <CTAButton locale={CTALocale} />
+      
+      {/* HTML5 Game Iframe */}
+      <div className="w-full max-w-4xl mt-8">
+        <iframe 
+          src="https://b.gamesdizi.com/ed/bad-parenting/" 
+          width="100%" 
+          height="600" 
+          frameBorder="0"
+          allowFullScreen
+          title="Bad Parenting HTML5 Game"
+        ></iframe>
+      </div>
     </section>
   );
 };
