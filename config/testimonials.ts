@@ -3,73 +3,73 @@ export const TestimonialsData = [
   {
     user: {
       name: "Founder",
-      username: "weijunext",
+      username: "Jose",
       image: "/images/users/weijunext.jpeg",
     },
     content:
-      "As a front-end developer, I'm highly satisfied with this landing page template. Editing text and images was very intuitive, and I encountered no technical hurdles throughout the process. The template's responsive design is excellent as well; whether on mobile or desktop, the page layout adapts perfectly. I managed to launch my own product's landing page in just half a day, significantly boosting my efficiency.",
+      "I don’t have enough money that’s the reason why I’m going to play this",
   },
   {
     user: {
       name: "User1",
-      username: "weijunext",
+      username: "Nathaniel",
       image: "/images/users/1.png",
     },
     content:
-      "This template has given me a new perspective on coding. As a backend developer with not much front-end experience, I found this template to be very user-friendly. I could build a professional-looking landing page with hardly any coding required. This not only saved me time but also sparked more interest in front-end development.",
+      "I think this is one of the best games I have ever played. Even though many people can tell the graphics or textures are “bad” the story is just too good. It shows a reality many people around all the world lives. The things that are really scary, are not ghosts, demons and that kind of stuff, is real people like Mr. Red Face. Poor Ron and the other kids, they did not deserve that end :). I hope the creator develop a part 2 of this piece of art.",
   },
   {
     user: {
       name: "User2",
-      username: "weijunext",
+      username: "Jacqulin",
       image: "/images/users/2.png",
     },
     content:
-      "As a developer who transitioned from design, I'm impressed with the aesthetic design of this template. It's not only easy to use but also comes with a default design that feels both modern and professional. I made some adjustments to the details to match my brand style, and the entire process was both simple and enjoyable.",
+      "Nahh tha game is horror",
   },
   {
     user: {
       name: "User3",
-      username: "weijunext",
+      username: "Yeva",
       image: "/images/users/3.png",
     },
     content:
-      "The performance of this template is outstanding, with very fast loading times and SEO-friendly features. As a developer focused on product optimization, I appreciate the high performance and optimization of the template. With simple modifications, I was able to further optimize my landing page, improving the speed at which users can access it. The SEO friendliness of the template also helped my page achieve better rankings in search engines.",
+      "i been wanna this game and i watch on youtube",
   },
   {
     user: {
       name: "User4",
-      username: "weijunext",
+      username: "Hminga",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "Pretty good game！Wow, this game blew me away! At first, I was skeptical about the dated graphics, but man, the atmosphere is just unreal. The way it builds tension without relying on cheap jump scares is masterful. The story had me on the edge of my seat the whole time, and that ending... just gut-wrenching. It's not often a game sticks with you like this. Definitely a hidden gem in the indie horror scene.",
   },
   {
     user: {
       name: "User5",
-      username: "weijunext",
+      username: "Evyan",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "I don’t know this game but I think I’ll try it out.",
   },
   {
     user: {
       name: "User6",
-      username: "weijunext",
+      username: "SurvivalScribe",
       image: "/images/users/4.png",
     },
     content:
-      "The interactive elements of this template added a lot of fun to my project. I particularly liked the settings for animations and transition effects, which made the browsing experience richer and more dynamic. Adjusting these interactive elements was very straightforward, requiring no deep front-end knowledge, which was very user-friendly for a non-professional front-end developer like me.",
+      "I stumbled upon this game during a late-night Twitch stream and had to try it myself. Boy, am I glad I did! The atmosphere is thick enough to cut with a knife, and the puzzles are actually challenging without being frustrating. It's rare to find a horror game that respects the player's intelligence like this. My only gripe is that it's a bit short, but quality over quantity, right? Fingers crossed for a sequel!",
   },
   {
     user: {
       name: "User7",
-      username: "weijunext",
+      username: "RetroRomancer",
       image: "/images/users/5.png",
     },
     content:
-      "This template does a great job with multi-language support, which is crucial for my international project. I was able to easily add different language versions, and the template ensured consistency in layout and design across various languages. This significantly reduced my workload in the localization process and helped me reach global users more quickly.",
+      "I've played my fair share of horror games, but this one hits different. The low-poly look actually adds to the creepy vibe, kinda like those old PS1 classics. But it's the sound design that really shines - those ambient noises had me constantly looking over my shoulder. The plot twists caught me off guard, and I'm still trying to piece together all the clues. Can't wait for a sequel or DLC!.",
   },
 ];
