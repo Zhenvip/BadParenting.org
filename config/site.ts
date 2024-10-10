@@ -17,7 +17,7 @@ const baseSiteConfig = {
     {
       name: "BadParenting.org",
       url: "https://BadParenting.org",
-      twitter: 'https://twitter.com/BadParenting',
+      twitter: 'https://x.com/simmon_charlie',
     }
   ],
   creator: '@2002games',
